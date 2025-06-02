@@ -1,0 +1,107 @@
+playwright:
+    chrome:
+        images:
+            default:
+                image: ghcr.io/selebrow/images/playwright/chrome
+                cmd: []
+                defaultVersion: ""
+                versionTags: {}
+                ports:
+                    browser: 4444
+                    vnc: 5900
+                path: ""
+                env: {}
+                limits:
+                    cpu: "1"
+                    memory: 2Gi
+                labels: {}
+                shmSize: 0
+                tmpfs: []
+                volumes: []
+    firefox:
+        images:
+            default:
+                image: ghcr.io/selebrow/images/playwright/firefox
+                cmd: []
+                defaultVersion: ""
+                versionTags: {}
+                ports:
+                    browser: 4444
+                    vnc: 5900
+                path: ""
+                env: {}
+                limits:
+                    cpu: "1"
+                    memory: 2Gi
+                labels: {}
+                shmSize: 0
+                tmpfs: []
+                volumes: []
+    webkit:
+        images:
+            default:
+                image: ghcr.io/selebrow/images/playwright/webkit
+                cmd: []
+                defaultVersion: ""
+                versionTags: {}
+                ports:
+                    browser: 4444
+                    vnc: 5900
+                path: ""
+                env: {}
+                limits:
+                    cpu: "1"
+                    memory: 2Gi
+                labels: {}
+                shmSize: 0
+                tmpfs: []
+                volumes: []
+webdriver:
+    chrome:
+        images:
+            default:
+                image: ghcr.io/selebrow/images/webdriver/chrome
+                cmd: []
+                defaultVersion: "137.0"
+                versionTags:
+                    "136.0": v0.0.18-136.0
+                    "137.0": v0.0.18-137.0
+                ports:
+                    browser: 4444
+                    clipboard: 9090
+                    devtools: 7070
+                    fileserver: 8080
+                    vnc: 5900
+                path: ""
+                env: {}
+                limits:
+                    cpu: "1"
+                    memory: 2Gi
+                labels: {}
+                shmSize: 0
+                tmpfs: []
+                volumes: []
+    firefox:
+        images:
+            default:
+                image: ghcr.io/selebrow/images/webdriver/firefox
+                cmd: []
+                defaultVersion: "139.0"
+                versionTags:
+                    "138.0": v0.0.18-138.0
+                    "139.0": v0.0.18-139.0
+                ports:
+                    browser: 4444
+                    clipboard: 9090
+                    devtools: 7070
+                    fileserver: 8080
+                    vnc: 5900
+                path: ""
+                env: {}
+                limits:
+                    cpu: "1"
+                    memory: 2Gi
+                labels: {}
+                shmSize: 0
+                tmpfs: []
+                volumes: []
