@@ -64,8 +64,7 @@ webdriver:
                 cmd: []
                 defaultVersion: "137.0"
                 versionTags:
-                    "136.0": v0.0.17-136.0
-                    "137.0": v1.0.1-137.0
+                    "137.0": v1.0.0-137.0
                 ports:
                     browser: 4444
                     clipboard: 9090
@@ -88,8 +87,7 @@ webdriver:
                 cmd: []
                 defaultVersion: "139.0"
                 versionTags:
-                    "138.0": v0.0.17-138.0
-                    "139.0": v1.0.1-139.0
+                    "139.0": v1.0.0-139.0
                 ports:
                     browser: 4444
                     clipboard: 9090
