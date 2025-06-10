@@ -6,6 +6,7 @@ playwright:
                 cmd: []
                 defaultVersion: 1.52.0
                 versionTags:
+                    1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
                 ports:
                     browser: 4444
@@ -26,6 +27,7 @@ playwright:
                 cmd: []
                 defaultVersion: 1.52.0
                 versionTags:
+                    1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
                 ports:
                     browser: 4444
@@ -46,6 +48,7 @@ playwright:
                 cmd: []
                 defaultVersion: 1.52.0
                 versionTags:
+                    1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
                 ports:
                     browser: 4444
@@ -67,6 +70,7 @@ webdriver:
                 cmd: []
                 defaultVersion: "137.0"
                 versionTags:
+                    "133.0": v1.0.4-133.0
                     "135.0": v1.0.3-135.0
                     "136.0": v1.0.1-136.0
                     "137.0": v1.0.0-137.0
