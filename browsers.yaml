@@ -4,12 +4,13 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/chrome
                 cmd: []
-                defaultVersion: 1.53.1
+                defaultVersion: 1.53.2
                 versionTags:
                     1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
                     1.53.0: v1.0.5-1.53.0
                     1.53.1: v1.0.6-1.53.1
+                    1.53.2: v1.0.7-1.53.2
                 ports:
                     browser: 4444
                     vnc: 5900
@@ -27,12 +28,13 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/firefox
                 cmd: []
-                defaultVersion: 1.53.1
+                defaultVersion: 1.53.2
                 versionTags:
                     1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
                     1.53.0: v1.0.5-1.53.0
                     1.53.1: v1.0.6-1.53.1
+                    1.53.2: v1.0.7-1.53.2
                 ports:
                     browser: 4444
                     vnc: 5900
@@ -50,12 +52,13 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/webkit
                 cmd: []
-                defaultVersion: 1.53.1
+                defaultVersion: 1.53.2
                 versionTags:
                     1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
                     1.53.0: v1.0.5-1.53.0
                     1.53.1: v1.0.6-1.53.1
+                    1.53.2: v1.0.7-1.53.2
                 ports:
                     browser: 4444
                     vnc: 5900
@@ -74,12 +77,12 @@ webdriver:
             default:
                 image: ghcr.io/selebrow/images/webdriver/chrome
                 cmd: []
-                defaultVersion: "137.0"
+                defaultVersion: "138.0"
                 versionTags:
-                    "133.0": v1.0.4-133.0
                     "135.0": v1.0.3-135.0
                     "136.0": v1.0.1-136.0
                     "137.0": v1.0.0-137.0
+                    "138.0": v1.0.7-138.0
                 ports:
                     browser: 4444
                     clipboard: 9090
@@ -100,10 +103,11 @@ webdriver:
             default:
                 image: ghcr.io/selebrow/images/webdriver/firefox
                 cmd: []
-                defaultVersion: "139.0"
+                defaultVersion: "140.0"
                 versionTags:
                     "138.0": v1.0.1-138.0
                     "139.0": v1.0.0-139.0
+                    "140.0": v1.0.7-140.0
                 ports:
                     browser: 4444
                     clipboard: 9090
