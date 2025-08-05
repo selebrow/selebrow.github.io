@@ -4,7 +4,7 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/chrome
                 cmd: []
-                defaultVersion: 1.54.1
+                defaultVersion: 1.54.2
                 versionTags:
                     1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
@@ -12,6 +12,7 @@ playwright:
                     1.53.1: v1.0.6-1.53.1
                     1.53.2: v1.0.7-1.53.2
                     1.54.1: v1.0.8-1.54.1
+                    1.54.2: v1.0.10-1.54.2
                 ports:
                     browser: 4444
                     vnc: 5900
@@ -29,7 +30,7 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/firefox
                 cmd: []
-                defaultVersion: 1.54.1
+                defaultVersion: 1.54.2
                 versionTags:
                     1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
@@ -37,6 +38,7 @@ playwright:
                     1.53.1: v1.0.6-1.53.1
                     1.53.2: v1.0.7-1.53.2
                     1.54.1: v1.0.8-1.54.1
+                    1.54.2: v1.0.10-1.54.2
                 ports:
                     browser: 4444
                     vnc: 5900
@@ -54,7 +56,7 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/webkit
                 cmd: []
-                defaultVersion: 1.54.1
+                defaultVersion: 1.54.2
                 versionTags:
                     1.51.1: v1.0.4-1.51.1
                     1.52.0: v1.0.3-1.52.0
@@ -62,6 +64,7 @@ playwright:
                     1.53.1: v1.0.6-1.53.1
                     1.53.2: v1.0.7-1.53.2
                     1.54.1: v1.0.8-1.54.1
+                    1.54.2: v1.0.10-1.54.2
                 ports:
                     browser: 4444
                     vnc: 5900
