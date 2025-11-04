@@ -86,12 +86,12 @@ webdriver:
             default:
                 image: ghcr.io/selebrow/images/webdriver/chrome
                 cmd: []
-                defaultVersion: "141.0"
+                defaultVersion: "142.0"
                 versionTags:
-                    "138.0": v1.0.7-138.0
                     "139.0": v1.0.11-139.0
                     "140.0": v1.0.13-140.0
                     "141.0": v1.0.15-141.0
+                    "142.0": v1.0.17-142.0
                 ports:
                     browser: 4444
                     clipboard: 9090
