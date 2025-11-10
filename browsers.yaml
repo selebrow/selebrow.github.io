@@ -26,6 +26,33 @@ playwright:
                 shmSize: 0
                 tmpfs: []
                 volumes: []
+    chromium:
+        images:
+            default:
+                image: ghcr.io/selebrow/images/playwright/chromium
+                cmd: []
+                defaultVersion: 1.56.1
+                versionTags:
+                    1.53.1: v1.0.17-1.53.1
+                    1.53.2: v1.0.17-1.53.2
+                    1.54.1: v1.0.17-1.54.1
+                    1.54.2: v1.0.17-1.54.2
+                    1.55.0: v1.0.17-1.55.0
+                    1.55.1: v1.0.17-1.55.1
+                    1.56.0: v1.0.17-1.56.0
+                    1.56.1: v1.0.17-1.56.1
+                ports:
+                    browser: 4444
+                    vnc: 5900
+                path: ""
+                env: {}
+                limits:
+                    cpu: "1"
+                    memory: 2Gi
+                labels: {}
+                shmSize: 0
+                tmpfs: []
+                volumes: []
     firefox:
         images:
             default:
