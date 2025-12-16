@@ -139,12 +139,12 @@ webdriver:
             default:
                 image: ghcr.io/selebrow/images/webdriver/firefox
                 cmd: []
-                defaultVersion: "145.0"
+                defaultVersion: "146.0"
                 versionTags:
-                    "142.0": v1.0.18-142.0
                     "143.0": v1.0.18-143.0
                     "144.0": v1.0.18-144.0
                     "145.0": v1.0.22-145.0
+                    "146.0": v1.0.28-146.0
                 ports:
                     browser: 4444
                     clipboard: 9090
