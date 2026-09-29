@@ -86,12 +86,12 @@ webdriver:
             default:
                 image: ghcr.io/selebrow/images/webdriver/chrome
                 cmd: []
-                defaultVersion: "153.0"
+                defaultVersion: "154.0"
                 versionTags:
-                    "150.0": v1.0.48-150.0
                     "151.0": v1.0.49-151.0
                     "152.0": v1.0.52-152.0
                     "153.0": v1.0.56-153.0
+                    "154.0": v1.0.57-154.0
                 ports:
                     browser: 4444
                     clipboard: 9090
@@ -112,12 +112,12 @@ webdriver:
             default:
                 image: ghcr.io/selebrow/images/webdriver/firefox
                 cmd: []
-                defaultVersion: "156.0"
+                defaultVersion: "157.0"
                 versionTags:
-                    "153.0": v1.0.50-153.0
                     "154.0": v1.0.53-154.0
                     "155.0": v1.0.54-155.0
                     "156.0": v1.0.56-156.0
+                    "157.0": v1.0.57-157.0
                 ports:
                     browser: 4444
                     clipboard: 9090
