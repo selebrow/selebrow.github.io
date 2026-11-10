@@ -4,9 +4,8 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/chromium
                 cmd: []
-                defaultVersion: 1.64.1
+                defaultVersion: 1.65.0
                 versionTags:
-                    1.59.1: v1.0.42-1.59.1
                     1.60.0: v1.0.44-1.60.0
                     1.61.0: v1.0.47-1.61.0
                     1.61.1: v1.0.48-1.61.1
@@ -14,6 +13,7 @@ playwright:
                     1.62.1: v1.0.51-1.62.1
                     1.63.0: v1.0.55-1.63.0
                     1.64.1: v1.0.58-1.64.1
+                    1.65.0: v1.0.60-1.65.0
                 ports:
                     browser: 4444
                     vnc: 5900
@@ -31,9 +31,8 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/firefox
                 cmd: []
-                defaultVersion: 1.64.1
+                defaultVersion: 1.65.0
                 versionTags:
-                    1.59.1: v1.0.42-1.59.1
                     1.60.0: v1.0.44-1.60.0
                     1.61.0: v1.0.47-1.61.0
                     1.61.1: v1.0.48-1.61.1
@@ -41,6 +40,7 @@ playwright:
                     1.62.1: v1.0.51-1.62.1
                     1.63.0: v1.0.55-1.63.0
                     1.64.1: v1.0.58-1.64.1
+                    1.65.0: v1.0.60-1.65.0
                 ports:
                     browser: 4444
                     vnc: 5900
@@ -58,9 +58,8 @@ playwright:
             default:
                 image: ghcr.io/selebrow/images/playwright/webkit
                 cmd: []
-                defaultVersion: 1.64.1
+                defaultVersion: 1.65.0
                 versionTags:
-                    1.59.1: v1.0.42-1.59.1
                     1.60.0: v1.0.44-1.60.0
                     1.61.0: v1.0.47-1.61.0
                     1.61.1: v1.0.48-1.61.1
@@ -68,6 +67,7 @@ playwright:
                     1.62.1: v1.0.51-1.62.1
                     1.63.0: v1.0.55-1.63.0
                     1.64.1: v1.0.58-1.64.1
+                    1.65.0: v1.0.60-1.65.0
                 ports:
                     browser: 4444
                     vnc: 5900
@@ -86,12 +86,12 @@ webdriver:
             default:
                 image: ghcr.io/selebrow/images/webdriver/chrome
                 cmd: []
-                defaultVersion: "156.0"
+                defaultVersion: "157.0"
                 versionTags:
-                    "153.0": v1.0.56-153.0
                     "154.0": v1.0.57-154.0
                     "155.0": v1.0.58-155.0
                     "156.0": v1.0.59-156.0
+                    "157.0": v1.0.60-157.0
                 ports:
                     browser: 4444
                     clipboard: 9090
@@ -112,12 +112,12 @@ webdriver:
             default:
                 image: ghcr.io/selebrow/images/webdriver/firefox
                 cmd: []
-                defaultVersion: "159.0"
+                defaultVersion: "160.0"
                 versionTags:
-                    "156.0": v1.0.56-156.0
                     "157.0": v1.0.57-157.0
                     "158.0": v1.0.58-158.0
                     "159.0": v1.0.59-159.0
+                    "160.0": v1.0.60-160.0
                 ports:
                     browser: 4444
                     clipboard: 9090
